@@ -1,0 +1,15 @@
+# 设置默认行为, 以防人们没有设置core.autocrlf
+* text=auto
+
+# 声明要始终规范化的文本文件, 并在签出时转换为本机行结尾。
+*.py   text eol=lf
+*.html text eol=lf
+*.js   text eol=lf
+*.css  text eol=lf
+*.sh   text eol=lf
+*.yml  text eol=lf
+
+# 不修改的二进制文件
+*.png -text
+*.jpg -text
+*.ico -text
